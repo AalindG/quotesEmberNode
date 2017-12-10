@@ -1,0 +1,16 @@
+{{outlet}}
+
+<form>
+  <div class="form-group">
+    <label class="col-form-label col-md-6">Quote</label>
+    {{input type="text" class="form-control" value=quote placeholder="Add a Quote.."}}
+  </div>
+
+  <div class="form-group">
+  	<label class="col-form-label col-md-6">Author</label>
+  	{{textarea type="text" class="form-control" value=author placeholder="Author"}}
+  </div>
+  <div><button {{action 'addQuote'}} class="btn btn-primary">
+    Submit
+  </button></div>
+</form>

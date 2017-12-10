@@ -1,0 +1,14 @@
+{{outlet}}
+
+<h3>Quotes</h3>
+{{#each quotes as |quote|}}
+	<div class="well">
+	<a href="#" {{action 'deleteQuote' quote._id}} class="btn-close" id="close">&times;</a>
+	<h4>
+		{{quote.quote}}
+	</h4>
+	<small>
+		--{{ quote.author}} 
+	</small>
+	</div>
+{{/each}}

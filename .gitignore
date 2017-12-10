@@ -1,0 +1,25 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+/node_modules
+
+# compiled output
+/testProject/dist
+/testProject/tmp
+
+# dependencies
+/testProject/node_modules
+/testProject/bower_components
+
+# misc
+/testProject/.sass-cache
+/testProject/connect.lock
+/testProject/coverage/*
+/testProject/libpeerconnection.log
+/testProject/npm-debug.log*
+/testProject/yarn-error.log
+/testProject/testem.log
+
+# ember-try
+/testProject/.node_modules.ember-try/
+/testProject/bower.json.ember-try
+/testProject/package.json.ember-try
